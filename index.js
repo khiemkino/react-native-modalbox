@@ -16,10 +16,8 @@ var {
   TouchableOpacity,
   Keyboard
 } = require('react-native');
-import { BlurView } from "@react-native-community/blur";
 import * as Animatable from 'react-native-animatable'
 var createReactClass = require('create-react-class');
-const BlurComponent = Animatable.createAnimatableComponent(BlurView)
 import BlurOverlay, { closeOverlay, openOverlay } from 'react-native-blur-overlay';
 
 
