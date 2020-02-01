@@ -29,7 +29,7 @@ const fadeIn = {
     opacity: 0
   },
   to: {
-    opacity: 0.85
+    opacity: 1
   }
 }
 var BackButton = BackHandler;
